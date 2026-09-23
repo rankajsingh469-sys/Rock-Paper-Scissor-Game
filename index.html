@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://googleapis.com" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Rock Paper Scissor Game</title>
+
+</head>
+
+<body class="">
+    <div class="bg-[#081b31] h-20 flex justify-center items-center   ">
+        <h1 class="text-white text-3xl font-serif font-[550]">Rock Paper Scissors</h1>
+    </div>
+    <div class="max-w-6xl m-auto py-17 flex justify-center gap-17">
+        <div id="choice" class="pt-8 " data-choice="stone" ><img
+                class=" w-40 h-40  rounded-full object-cover hover:border-8  border-black cursor-pointer" src="rock.png"
+                alt=""></div>
+        <div id="choice" class="pt-8 " data-choice="paper"><img
+                class=" w-40 h-40  rounded-full object-cover hover:border-8  border-black cursor-pointer"
+                src="paper.png" alt=""></div>
+        <div id="choice" class="pt-8 " data-choice="scissors"> <img
+                class=" w-40 h-40  rounded-full object-cover hover:border-8  border-black cursor-pointer"
+                src="scissors.png" alt=""></div>
+
+    </div>
+    <div class="flex justify-center items-center text-3xl gap-10">
+        <div class="score">
+            <p id="user-score" class="text-6xl  font-serif">0</p>
+            <p class=" font-serif">You</p>
+        </div>
+        <div class="score">
+            <p id="comp-score" class="text-6xl  font-serif">0</p>
+            <p class=" font-serif">Comp</p>
+        </div>
+    </div>
+
+    <div class="flex justify-center mt-16">
+        <div id="msg-container" class="bg-[#081b31] border rounded-2xl">
+            <p id="msg" class="text-white px-6 py-4 text-3xl font-serif ">Play your move</p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
