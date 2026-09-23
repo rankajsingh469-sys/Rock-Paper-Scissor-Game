@@ -30,8 +30,8 @@ A simple and interactive **Stone Paper Scissors** game built using **HTML, CSS, 
 
 
 
-```text
-![Game Preview](Screenshot 2026-09-23 225708.png
-)
-```
+I have uploaded a screenshot of the game you can see that .
+(Screenshot 2026-09-23 225708.png)
+
+
 
