@@ -2,21 +2,11 @@
 
 A simple and interactive **Stone Paper Scissors** game built using **HTML, CSS, and JavaScript**.
 
-## Features
-
-* 🎮 Play against the computer
-* 🧮 Score tracking
-* ⚡ Instant game results
-* 📱 Simple and responsive design
-* 🎨 Clean user interface
-
 ##  Technologies Used
 
 * HTML
 * CSS
 * JavaScript
-
-
 
 ##  How to Play
 
